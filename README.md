@@ -13,8 +13,31 @@
 
 # 문법
 1) Groups anf ranges
-   - |  : 또는
-   - () : 그룹
+   - |  : 또는 ![image](https://github.com/leegowoon/regex/assets/145514701/80f8d1f0-26f2-483b-8acd-f451ddac2e12)
+
+   - () : 그룹 ![image](https://github.com/leegowoon/regex/assets/145514701/8203b2c3-9990-4186-9ad4-fd772f1422bf)
+
    - [] : 문자셋, 괄호안의 어떤 문자든
+   - gr로 시작하고 중간글자가 e 또는 a가 되고 y로 끝나는 것을 찾음  ![image](https://github.com/leegowoon/regex/assets/145514701/852d6c09-1be1-4559-b382-92f125a916c4)
+
+   
    - [^] : 부정 문자셋, 괄호안의 어떤 문자가 아닐 때 ex) [^a] : a가 아니다.
    - (?) : 찾지만 기억하지는 않음
+   - 찾아는 지지만 그룹으로 만들고 싶지 않다면 사용 
+   - ![제목 없음](https://github.com/leegowoon/regex/assets/145514701/8fd32774-2127-4958-bb24-4b1fef3dc3dc)
+
+   - gr로 시작하고 a 또는 e 또는 d가 있고 y로 끝남 
+   - ![image](https://github.com/leegowoon/regex/assets/145514701/b4ed1a62-935d-4516-bb26-b6defef14bfc)
+   - [aed] : 대괄호안에 있는 글자 중 하나라도 만족하는 것을 찾아라
+   - ![image](https://github.com/leegowoon/regex/assets/145514701/470ee153-7590-497a-abff-6592cf5a9c91)
+     - 아래 두 이미지는 gr로 시작하고 a~g사이의 글자 중 하나라도 포함되고 y로 끝나는 것을 찾음
+   - ![image](https://github.com/leegowoon/regex/assets/145514701/fa481ccd-6e29-45e9-8f10-794165bff5a6)
+   - ![image](https://github.com/leegowoon/regex/assets/145514701/6c598e3c-ac6f-4747-8ac3-3b11883ca8b7)
+
+
+
+
+  
+
+---
+- multiline : 라인한줄안에서 찾아라
