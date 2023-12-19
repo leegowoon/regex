@@ -29,13 +29,16 @@
   ![제목 없음](https://github.com/leegowoon/regex/assets/145514701/8fd32774-2127-4958-bb24-4b1fef3dc3dc)
 
    - gr로 시작하고 a 또는 e 또는 d가 있고 y로 끝남   
-   ![image](https://github.com/leegowoon/regex/assets/145514701/b4ed1a62-935d-4516-bb26-b6defef14bfc)
+   ![image](https://github.com/leegowoon/regex/assets/145514701/c4ca110c-cdd2-40ff-bdae-08d97a113edb)
+
 
    - [aed] : 대괄호안에 있는 글자 중 하나라도 만족하는 것을 찾아라  
-   ![image](https://github.com/leegowoon/regex/assets/145514701/470ee153-7590-497a-abff-6592cf5a9c91)
+   ![image](https://github.com/leegowoon/regex/assets/145514701/aafa7fe2-f0ae-4737-a92b-b8fab15c7ec5)
+
    - 아래 두 이미지는 gr로 시작하고 a~g사이의 글자 중 하나라도 포함되고 y로 끝나는 것을 찾음   
-   ![image](https://github.com/leegowoon/regex/assets/145514701/fa481ccd-6e29-45e9-8f10-794165bff5a6)
-   ![image](https://github.com/leegowoon/regex/assets/145514701/6c598e3c-ac6f-4747-8ac3-3b11883ca8b7)
+   ![image](https://github.com/leegowoon/regex/assets/145514701/d1c7fdc3-2a1b-4ad0-922c-a31bdcdeb66f)
+   ![image](https://github.com/leegowoon/regex/assets/145514701/76fc1403-3d24-4c88-b771-d1151fa124fb)
+
 
    - a 부터 z까지, A 부터 Z까지, 0 부터 9까지 하나라도 만족하면 모두 찾는다.(특수문자X)
    ![image](https://github.com/leegowoon/regex/assets/145514701/31f80819-23bc-4148-ae96-cd7cde0cfc9d)
@@ -54,7 +57,8 @@
    ![image](https://github.com/leegowoon/regex/assets/145514701/14ffd26f-63cd-41c6-ac1c-5afeb1f452c5)
 
    - {n} : n번 반복   
-   ![image](https://github.com/leegowoon/regex/assets/145514701/588e28b4-8cd4-4844-8578-969e83d4c06a)
+   ![image](https://github.com/leegowoon/regex/assets/145514701/da08cb6c-7c19-46c5-a7a4-4bfcd6e89a9d)
+
 
    - {min} : 최소   
    ![image](https://github.com/leegowoon/regex/assets/145514701/aaf6c7cf-e541-4cc1-9083-d6d96949d01e)
