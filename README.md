@@ -44,12 +44,25 @@
    ![image](https://github.com/leegowoon/regex/assets/145514701/ac61c8f3-959d-4ca3-b806-6ae2fe58fb00)
 
 2) 제한하기위해 사용하는
-   - ? : 없거나 있거나(zero or one)
-   - ' * ' : 없거나 있거나 많거나(zero or more)
-   - ' + ' : 하나 또는 많거나(one or more)
-   - {n} : n번 반복
-   - {min} : 최소
-   - {min,max} : 최소 그리고 최대
+   - ? : 없거나 있거나(zero or one,많거나X)   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/f19d1860-f958-41e7-bece-836cbc55db43)
+
+   - ' * ' : 없거나 있거나 많거나(zero or more)   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/295438f5-1b01-4e8e-993a-bf4a1615e9e2)
+
+   - ' + ' : 하나 또는 많거나(one or more)   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/14ffd26f-63cd-41c6-ac1c-5afeb1f452c5)
+
+   - {n} : n번 반복   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/588e28b4-8cd4-4844-8578-969e83d4c06a)
+
+   - {min} : 최소   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/aaf6c7cf-e541-4cc1-9083-d6d96949d01e)
+
+
+   - {min,max} : 최소 그리고 최대   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/5e90a60a-1080-4559-ae92-2f0a3eac62ae)
+
 
 3) 경계에 대한
    - \b : 단어경계
