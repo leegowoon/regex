@@ -19,7 +19,7 @@
 
    - [] : 문자셋, 괄호안의 어떤 문자든
    - gr로 시작하고 중간글자가 e 또는 a가 되고 y로 끝나는 것을 찾음   
-   ![image](https://github.com/leegowoon/regex/assets/145514701/852d6c09-1be1-4559-b382-92f125a916c4)
+   ![image](https://github.com/leegowoon/regex/assets/145514701/0068df32-2944-4436-93f0-e34686a7b108)
 
    
    - [^] : 부정 문자셋, 괄호안의 어떤 문자가 아닐 때 ex) [^a] : a가 아니다.
@@ -29,7 +29,7 @@
   ![제목 없음](https://github.com/leegowoon/regex/assets/145514701/8fd32774-2127-4958-bb24-4b1fef3dc3dc)
 
    - gr로 시작하고 a 또는 e 또는 d가 있고 y로 끝남   
-   ![image](https://github.com/leegowoon/regex/assets/145514701/0068df32-2944-4436-93f0-e34686a7b108)
+   ![image](https://github.com/leegowoon/regex/assets/145514701/d639baf7-9c6a-4613-acee-5499304f13de)
 
    - [aed] : 대괄호안에 있는 글자 중 하나라도 만족하는 것을 찾아라  
    ![image](https://github.com/leegowoon/regex/assets/145514701/aafa7fe2-f0ae-4737-a92b-b8fab15c7ec5)
@@ -75,23 +75,48 @@
    - /Ya\b/ : Ya인데 단어 중에서 Ya로 끝나는 Ya를 찾는다.      
    ![image](https://github.com/leegowoon/regex/assets/145514701/f911317d-5131-4049-a774-0b8b5de2d753)
 
-   - \B : 단어경계가 아닌 것   
+   - \B : 단어경계가 아닌 것
+   - /Ya\B/ : Ya인데 단어 중에서 Ya로 끝나지 않는 Ya를 찾는다.   
    ![image](https://github.com/leegowoon/regex/assets/145514701/e75d2890-a3d4-491a-ae35-768ebe500713)
 
-   - ^  : 문장의 시작(대괄호 밖에 있는 것)   
+   - ^  : 문장의 시작(대괄호 밖에 있는 것)
+   - /^Ya/ : 문장의 시작인 Ya   
    ![image](https://github.com/leegowoon/regex/assets/145514701/c9e7f847-6455-4cf0-b558-33e6d7d85390)
 
    - $  : 문장의 끝
+   - /Ya$/ : 문장의 끝나는 Ya   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/8adb9f3d-6881-473c-a07a-5f0f9b819d67)
+
   
 4) 특징을 이용하는 방법
-   - \  : 특수문자가 아닌 문자
+   - \  : 특수문자
+     
    - .  : 어떤 글자(줄바꿈 문자 제외)
-   - \d : 숫자
-   - \D : 숫자가 아닌 것
-   - \w : 문자
-   - \W : 문자가 아닌 것
-   - \s : 공백(space)
-   - \S : 공백이 아닌 것
+   - /./ : 모든 문자   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/eb0ad004-d9c2-4ac9-bdfb-f809132c534b)
+   - /\./ : 마침표를 찍을려면 역슬래시 사용   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/7544e569-88b4-49fd-b338-e4bec0e4340f)
+   - []{} 찾을 때
+   ![image](https://github.com/leegowoon/regex/assets/145514701/ae94b7ea-9472-4127-bd80-be5dce1c67bf)
+
+   - \d : 숫자   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/b71068b9-3c85-482a-a6d4-8692f75e8d4d)
+
+   - \D : 숫자가 아닌 것   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/04adb276-b26e-4eba-a630-8d3e9b76836a)
+
+   - \w : 문자(글자와 숫자)   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/ace600a3-aca3-49db-905d-8833b20b3b79)
+
+   - \W : 문자가 아닌 것   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/ff1f05c6-6aba-450d-a4e2-3385f6b48fc9)
+
+   - \s : 공백(space)   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/b0ef40ce-3e67-4064-9e7f-4532febd1e91)
+
+   - \S : 공백이 아닌 것   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/62996022-83eb-4217-b774-12ef9d1086d6)
+
 
 
   
