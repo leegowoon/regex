@@ -47,10 +47,10 @@
 
 2) 제한하기위해 사용하는
    - ? : 없거나 있거나(zero or one,많거나X)   
-   ![image](https://github.com/leegowoon/regex/assets/145514701/f19d1860-f958-41e7-bece-836cbc55db43)
+   ![image](https://github.com/leegowoon/regex/assets/145514701/872447c4-d85b-4b95-b79b-736ea6a8ae29)
 
    - ' * ' : 없거나 있거나 많거나(zero or more)   
-   ![image](https://github.com/leegowoon/regex/assets/145514701/295438f5-1b01-4e8e-993a-bf4a1615e9e2)
+   ![image](https://github.com/leegowoon/regex/assets/145514701/58c5511e-88fc-412a-804c-f30a53ec208a)
 
    - ' + ' : 하나 또는 많거나(one or more)   
    ![image](https://github.com/leegowoon/regex/assets/145514701/bea18c96-4ddc-4ee5-a5bf-52230d2e59b3)
@@ -94,9 +94,10 @@
    - .  : 어떤 글자(줄바꿈 문자 제외)
    - /./ : 모든 문자   
    ![image](https://github.com/leegowoon/regex/assets/145514701/eb0ad004-d9c2-4ac9-bdfb-f809132c534b)
-   - /\./ : 마침표를 찍을려면 역슬래시 사용   
+   - /\./ : 마침표를 찍을려면 역슬래시 사용    
    ![image](https://github.com/leegowoon/regex/assets/145514701/7544e569-88b4-49fd-b338-e4bec0e4340f)
-   - []{} 찾을 때
+
+   - []{} 찾을 때   
    ![image](https://github.com/leegowoon/regex/assets/145514701/ae94b7ea-9472-4127-bd80-be5dce1c67bf)
 
    - \d : 숫자   
