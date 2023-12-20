@@ -29,8 +29,7 @@
   ![제목 없음](https://github.com/leegowoon/regex/assets/145514701/8fd32774-2127-4958-bb24-4b1fef3dc3dc)
 
    - gr로 시작하고 a 또는 e 또는 d가 있고 y로 끝남   
-   ![image](https://github.com/leegowoon/regex/assets/145514701/c4ca110c-cdd2-40ff-bdae-08d97a113edb)
-
+   ![image](https://github.com/leegowoon/regex/assets/145514701/0068df32-2944-4436-93f0-e34686a7b108)
 
    - [aed] : 대괄호안에 있는 글자 중 하나라도 만족하는 것을 찾아라  
    ![image](https://github.com/leegowoon/regex/assets/145514701/aafa7fe2-f0ae-4737-a92b-b8fab15c7ec5)
@@ -54,7 +53,8 @@
    ![image](https://github.com/leegowoon/regex/assets/145514701/295438f5-1b01-4e8e-993a-bf4a1615e9e2)
 
    - ' + ' : 하나 또는 많거나(one or more)   
-   ![image](https://github.com/leegowoon/regex/assets/145514701/14ffd26f-63cd-41c6-ac1c-5afeb1f452c5)
+   ![image](https://github.com/leegowoon/regex/assets/145514701/bea18c96-4ddc-4ee5-a5bf-52230d2e59b3)
+
 
    - {n} : n번 반복   
    ![image](https://github.com/leegowoon/regex/assets/145514701/da08cb6c-7c19-46c5-a7a4-4bfcd6e89a9d)
@@ -70,8 +70,17 @@
 
 3) 경계에 대한
    - \b : 단어경계
-   - \B : 단어경계가 아닌 것
-   - ^  : 문장의 시작(대괄호 밖에 있는 것)
+   - /\bYa/ : Ya인데 단어 중에서 Ya로 시작하는 Ya를 찾는다.     
+   ![image](https://github.com/leegowoon/regex/assets/145514701/69f8e7c9-1a06-4bc8-b764-dad03919dba3)
+   - /Ya\b/ : Ya인데 단어 중에서 Ya로 끝나는 Ya를 찾는다.      
+   ![image](https://github.com/leegowoon/regex/assets/145514701/f911317d-5131-4049-a774-0b8b5de2d753)
+
+   - \B : 단어경계가 아닌 것   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/e75d2890-a3d4-491a-ae35-768ebe500713)
+
+   - ^  : 문장의 시작(대괄호 밖에 있는 것)   
+   ![image](https://github.com/leegowoon/regex/assets/145514701/c9e7f847-6455-4cf0-b558-33e6d7d85390)
+
    - $  : 문장의 끝
   
 4) 특징을 이용하는 방법
