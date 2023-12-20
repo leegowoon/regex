@@ -118,6 +118,12 @@
    - \S : 공백이 아닌 것   
    ![image](https://github.com/leegowoon/regex/assets/145514701/62996022-83eb-4217-b774-12ef9d1086d6)
 
+---
+![image](https://github.com/leegowoon/regex/assets/145514701/fdbb68b8-3791-468f-a3dc-fc0c6917ecfc)
+- index:4 >> 하루가 4번째에 있다는 뜻
+![image](https://github.com/leegowoon/regex/assets/145514701/f868f4ac-c750-4ce8-a649-5f3cc2e6b057)
+
+
 
 
   
